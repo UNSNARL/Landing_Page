@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 const Header = () => {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark ">
   <a className={styles.heading} href="#">
     <img className={styles.img} src="Unsnarl_WEB.svg" />
     <h1 className={styles.headingtext}>UNSNARL</h1>

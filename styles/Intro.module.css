@@ -120,3 +120,77 @@ font-size: 40px;
 line-height: 150%;
 color: #FFFFFF;
 }
+
+.box1{
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+border-radius: 32px;
+order: 0;
+flex-grow: 0;
+margin-top: 5vh;
+margin-bottom: 5vh;
+align-items: center;
+max-width: 25vw;
+}
+
+.box2{
+    background: #FFFFFF;
+    border-radius: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #0D0D2B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    min-width: 7vw;
+    padding: 10px 9px 10px 9px;
+}
+
+.heading3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.stats{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statsicon{
+    width: 15%;
+    margin-right: 1vw;
+}
+
+.statsfig{
+display: flex;
+flex-direction: column;
+}
+
+.statshead{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+    transform: translateY(2vh)
+}
+
+.statspara{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
