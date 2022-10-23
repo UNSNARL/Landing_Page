@@ -23,7 +23,7 @@ const How = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading1}>How to we work</h1>
+      <h1 className={styles.heading1}>How do we work</h1>
       <h1 className={styles.heading2}>Our System and Journey</h1>
 
       <div class="row">
@@ -106,7 +106,7 @@ const How = () => {
       <div class="row mt-5">
         <div class="col-12 col-md-6 mb-3 ">
           <div>
-            <img className={styles.img5} src="process.png" />
+            <img className={styles.img5} src="Group112.png" />
           </div>
         </div>
 

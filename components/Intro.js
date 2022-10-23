@@ -9,13 +9,19 @@ const Intro = () => {
           <div class={styles.left1}>
             <div className={styles.box1}>
                 <div className={styles.box2}>
-                    75% SAVE
+                    SAVE 75%
                 </div>
                 <h1 className={styles.heading3}>
                     For the Black Friday weekend
                 </h1>
             </div>
-            <h1 className={styles.heading1}>Introducing <b>Detect</b>Box</h1>
+            <div class={styles.detectt}>
+            <span className={styles.heading5}>Introducing</span>
+            <div className={styles.heading1}>
+              <span>DetectBox</span>
+              <span>DetectBox</span>
+            </div>
+            </div>
             <p className={styles.para1}>A <span className={styles.para2}>Progressive</span> Web3</p>
             <p className={styles.para11}>Bug-Bounty platform.</p>
             <p className={styles.para3}>Get your code reviewed from an extensive community of developers, </p>
@@ -71,11 +77,11 @@ const Intro = () => {
           <div class={styles.left2}>
             <h1 className={styles.heading2}> Why you should choose  </h1>
             <h1 className={styles.heading2}> UNSNARL </h1>
-            <p className={styles.para3}>Experience the next generation Ecosystem Based </p>
-            <p className={styles.para31}>Auditing(EBA) platform leveraged by a world-wide </p>
-            <p className={styles.para32}>trusted community. No project deployment delays, no </p>
-            <p className={styles.para33}>extra costs, optimum security. </p>
-            <button class={styles.trial}>
+            <p className={styles.para33}>Experience the next generation Ecosystem Based </p>
+            <p className={styles.para331}>Auditing(EBA) platform leveraged by a world-wide </p>
+            <p className={styles.para332}>trusted community. No project deployment delays, no </p>
+            <p className={styles.para333}>extra costs, optimum security. </p>
+            <button class={styles.trial1}>
                     <p className={styles.trialtext}>Learn More</p>
             </button>
           </div>

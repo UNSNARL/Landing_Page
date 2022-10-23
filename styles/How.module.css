@@ -45,15 +45,15 @@ color: #FFFFFF;
 }
 
 .img4{
-    margin-left: 17vw;
+    margin-left: 10vw;
     border: none;
 }
 
 
 .img5{
-    margin-left: 17vw;
+    margin-left: 10vw;
     border: none;
-    width: 80%;
+    width: 70%;
 }
 
 .button{
@@ -64,7 +64,7 @@ color: #FFFFFF;
     padding: 16px 32px;
     gap: 24px;
     color: #FFFFFF;
-    margin-left: 18vw;
+    margin-left: 11vw;
     border: none;
     margin-top: 25px;
     transform: translateY(-7vh);
@@ -88,7 +88,7 @@ color: #FFFFFF;
     padding: 16px 32px;
     gap: 24px;
     color: #FFFFFF;
-    margin-left: 31vw;
+    margin-left: 28vw;
     border: none;
     margin-top: 25px;
     transform: translateY(-7vh);
@@ -146,7 +146,7 @@ color: #FFFFFF;
 }
 
 .table{
-    transform: translateX(10vw);
+    transform: translateX(6vw);
 }
 
 .box1{
@@ -155,8 +155,7 @@ color: #FFFFFF;
     backdrop-filter: blur(25px);
     border-radius: 15px;
     padding: 5vh;
-    margin-left: 6vw;
-    margin-right: 6vw;
+    margin-right: 10vw;
 }
 
 .box2{
@@ -164,7 +163,8 @@ color: #FFFFFF;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
     backdrop-filter: blur(25px);
     border-radius: 15px;
-    margin-left: 15vw;
+    margin-left: 10vw;
+    margin-right: 2vw;
     padding: 5vh;
 }
 
@@ -245,7 +245,6 @@ input.input1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 input.input1:focus{
     outline: none;
 }
-
 
 
 .subscribe{
