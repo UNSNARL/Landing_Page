@@ -225,7 +225,7 @@ margin-right: 10vw;
     mix-blend-mode: normal;
 }
 
-.input{
+.input1{
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.4);
     padding: 15px;
@@ -234,7 +234,19 @@ margin-right: 10vw;
     border-right-style: none;
     margin-left: 10vw;
     margin-right: 5vw;
+color: #fff
+    
 }
+
+input.input1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+}
+
+input.input1:focus{
+    outline: none;
+}
+
+
 
 .subscribe{
     background: #FFFFFF;
@@ -245,4 +257,11 @@ justify-content: center;
 align-items: center;
 padding: 14px 32px;
 border: none;
+}
+
+
+.error{
+    max-width: 14vw;
+    color: #fff;
+    margin-top: 10px;
 }

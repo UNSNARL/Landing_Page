@@ -1,7 +1,26 @@
 import React from "react";
 import styles from "../styles/How.module.css";
+import { useState } from "react";
+import axios from "axios";
 
 const How = () => {
+
+  const [email, setEmail] = useState("");
+  const [state, setState] = useState("IDLE");
+  const [errorMessage, setErrorMessage] = useState(null);
+
+  const subscribe = async () => {
+    setState("LOADING");
+    setErrorMessage(null);
+    try {
+      const response = await axios.post("/api/newsletter", { email });
+      setState("SUCCESS");
+    } catch (e) {
+      setErrorMessage(e.response.data.error);
+      setState("ERROR");
+    }
+  };
+
   return (
     <div className={styles.container}>
       <h1 className={styles.heading1}>How to we work</h1>
@@ -110,10 +129,21 @@ const How = () => {
               <p class={styles.parad2}>news and an early access to DetectBox</p>
             </div>
             <div>
-              <input id="inputID" size="40" class={styles.input} type='text' placeholder='Enter your email' />
+              <input id="inputID" 
+              size="30" class={styles.input1} 
+              type='text' 
+              value={email}
+              onChange={(e)=> setEmail(e.target.value)}
+              placeholder='Enter your email' />
             </div>
             <div>
-              <button class={styles.subscribe}>Subscribe</button>
+              <button type="button" disabled={state==='LOADING'} onClick={subscribe} class={styles.subscribe}>Subscribe</button>
+              {state === "ERROR" && (
+              <p className={styles.error}>{errorMessage}</p>
+            )}
+            {state === "SUCCESS" && (
+              <p className={styles.error}>Success!</p>
+            )}
             </div>
           </div>
         </div>
