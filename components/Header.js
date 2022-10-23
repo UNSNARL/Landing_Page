@@ -25,7 +25,7 @@ const Header = () => {
         <a className="nav-link mx-2 text-white" href="#">Newsletter </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link mx-2 text-white" href="#">Follow Us </a>
+        <a className="nav-link mx-2 text-white" target="_blank" href="https://www.linkedin.com/company/unsnarl/?viewAsMember=true">Follow Us </a>
       </li>
     </ul>
     <button className={styles.button}>Coming Soon</button>
