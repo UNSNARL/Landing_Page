@@ -43,6 +43,7 @@ transform: translateY(6px);
 }
 
 .heading1{
+    
     font-style: normal;
 font-weight: 400;
 font-size: 54px;
@@ -52,7 +53,6 @@ color: #FFFFFF;
 }
 
 .para1{
-    font-family: 'Rubik';
 font-style: normal;
 font-weight: 700;
 font-size: 34px;
@@ -61,7 +61,6 @@ color: #E9E9FE;
 }
 
 .para11{
-    font-family: 'Rubik';
 font-style: normal;
 font-weight: 700;
 font-size: 34px;
@@ -193,4 +192,9 @@ flex-direction: column;
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #E0E0E0;
+}
+
+.img2{
+    margin-top: 15vh;
+    margin-left: 7vw;
 }

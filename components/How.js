@@ -9,12 +9,12 @@ const How = () => {
 
       <div class="row">
         <div class="col-12 col-md-6 mb-3">
-          <div>
+          <div class={styles.box2}>
             <h1 className={styles.heading3}>We build a Trusted </h1>
             <h1 className={styles.heading3}>community of Developers, </h1>
-            <h1 className={styles.heading3}>Ethical Hackers and Auditors</h1>
-            <button className={styles.button}>Learn More</button>
+            <h1 className={styles.heading3}>Ethical Hackers and Auditors.</h1>
           </div>
+          <button className={styles.button}>Learn More</button>
         </div>
         <div class="col-12 col-md-6 mb-3 ">
           <div>
@@ -34,49 +34,49 @@ const How = () => {
         </div>
 
         <div class="col-12 col-md-6 mb-3">
-          <div>
+          <div class={styles.box1}>
             <h1 className={styles.heading4}>Our team of experts review all</h1>
             <h1 className={styles.heading4}>the recent hacks/exploits and</h1>
             <h1 className={styles.heading4}>devise healthy security </h1>
             <h1 className={styles.heading4}>practices.</h1>
-            <button className={styles.button1}>Learn More</button>
           </div>
+          <button className={styles.button1}>Learn More</button>
         </div>
       </div>
 
-      <div class="row mt-5">
+      <div class="row mt-5 ">
         <div class="col-12 col-md-6 mb-3">
-          <div>
+          <div class={styles.box2}>
             <h1 className={styles.heading3}>We secure web3 Enterprises </h1>
             <h1 className={styles.heading3}>by building tools using</h1>
             <h1 className={styles.heading3}>cutting-edge technologies.</h1>
-            <button className={styles.button}>Learn More</button>
           </div>
+          <button className={styles.button}>Learn More</button>
         </div>
-        <div class="col-12 col-md-6 mb-3 ">
+        <div class="col-12 col-md-6 mb-3">
           <table id="customers" className="text-white">
-           <tbody>
-            <tr>
+           <tbody className={styles.table}>
+            <tr className='ml-3'>
               <td className={styles.ele}>
                 <h6>Smart Contract Auditing</h6>
               </td>
-              <td className={styles.ele1}>Coming Soon </td>
+              <td className={styles.ele1}>Coming<br/> Soon </td>
               <td className={styles.ele2}>Learn More</td>
             </tr>
             <tr className={styles.ele4}>
               <td className={styles.ele3}>
                 <img className={styles.img2} src="detect-box.png" />
-                <h4 className={styles.ele6}>DetectBox</h4>
-                <div className={styles.ele5}>100K Users</div>
+                <h4 className={styles.ele6}>Detect<br/>Box</h4>
+                <div className={styles.ele5}>100K <br/>Users</div>
               </td>
               <td className={styles.ele1}>Bug Bounty</td>
-              <td className={styles.ele2}>Prices and Pricing</td>
+              <td className={styles.ele2}>Prices and <br/>Pricing</td>
             </tr>
             <tr>
               <td className={styles.ele}>
-                <h6>Automated Anomaly Detection</h6>
+                <h6>Automated <br/>Anomaly Detection</h6>
               </td>
-              <td className={styles.ele1}>Coming Soon </td>
+              <td className={styles.ele1}>Coming <br/>Soon </td>
               <td className={styles.ele2}>Learn More</td>
             </tr>
             </tbody>
@@ -92,11 +92,29 @@ const How = () => {
         </div>
 
         <div class="col-12 col-md-6 mb-3">
-          <div>
+          <div class={styles.box1}>
             <h1 className={styles.heading4}>We try to build a secure </h1>
             <h1 className={styles.heading4}>development pipeline for web3</h1>
             <h1 className={styles.heading4}>development. </h1>
-            <button className={styles.button1}>Learn More</button>
+          </div>
+          <button className={styles.button1}>Learn More</button>
+        </div>
+      </div>
+
+      <div className={styles.newsletter}>
+        <div className={styles.newslettercontainer}>
+          <div className={styles.newsletterbox}>
+            <div>
+              <h1 class={styles.headingd}>Start Detecting Now</h1>
+              <p class={styles.parad1}>Join now with UNSNARL to get the latest </p>
+              <p class={styles.parad2}>news and an early access to DetectBox</p>
+            </div>
+            <div>
+              <input id="inputID" size="40" class={styles.input} type='text' placeholder='Enter your email' />
+            </div>
+            <div>
+              <button class={styles.subscribe}>Subscribe</button>
+            </div>
           </div>
         </div>
       </div>

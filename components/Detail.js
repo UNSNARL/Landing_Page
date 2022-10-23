@@ -36,7 +36,7 @@ const Detail = () => {
                 <button class={styles.trial}>
                     <p className={styles.trialtext}>Free Trial</p>
                     <div>
-                        <img src='Group 16.svg' />
+                        <img  src='Group 16.svg' />
                     </div>
                 </button>
 
