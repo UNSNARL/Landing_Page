@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div class={styles.container}>
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-6">
           <div class={styles.left1}>
             <div className={styles.box1}>
                 <div className={styles.box2}>
@@ -16,7 +16,7 @@ const Intro = () => {
                 </h1>
             </div>
             <div class={styles.detectt}>
-            <span className={styles.heading5}>Introducing</span>
+              <div className={styles.heading5}>Introducing</div>
             <div className={styles.heading1}>
               <span>DetectBox</span>
               <span>DetectBox</span>
@@ -35,8 +35,8 @@ const Intro = () => {
           </div>
         </div>
 
-        <div class="col-12 col-md-6">
-          <img src='Illustration.svg' />
+        <div class="col-12 col-lg-6">
+          <img class={styles.bitcoin} src='Illustration.svg' />
         </div>
 
         <div class="col-12 col-md-4">

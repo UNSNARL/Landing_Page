@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div class="row mt-5">
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-4 col-lg-3">
         <div class={styles.heading}>
         <img className={styles.img} src="Unsnarl_WEB.svg" />
         <h1 className={styles.headingtext}>UNSNARL</h1>
         </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3 text-white">
+        <div class="col-12 col-md-4 col-lg-3 text-white">
           <div className='d-flex flex-column'>
             <h4 className='mb-5'> Quick Link</h4>
             <h6 >Home</h6>
@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3 text-white">
+        <div class="col-12 col-md-4 col-lg-3 text-white">
           <div className='d-flex flex-column'>
             <h4 className='mb-5'> Resources</h4>
             <h6 >Download Whitepaper</h6>
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-4 col-lg-3">
           <div className='d-flex flex-column '>
             <h3 className='text-white'>We accept following</h3>
             <h3 className='text-white'>payment systems</h3>
