@@ -57,13 +57,15 @@ const Detail = () => {
           </div>
 
           <div class="col-12 col-md-4">
-            <div className={styles.region4}> 
-               <img className={styles.img4} src='UNSNARL_logo1.svg' />
-               <h1 className={styles.head2}>U-Articles</h1>
-               <p className={styles.para3}>
-                    Unsnarl-Articles is a set of deeply researched and most simplistically presented information on hacks and audits.
-               </p>
-               <img class={styles.arrow1} src='ArrowRight.svg' />
+            <div className={styles.region3}> 
+               <div className='text-center'>
+                   <img className={styles.img4} src='UNSNARL_logo.png' />
+               </div>
+               <h1 className={styles.head1}>U-Articles</h1>
+               <p className={styles.para5}>
+               Unsnarl-Articles is a set of deeply researched and most simplistically presented information on hacks and audits.               
+                </p>
+               <img class={styles.arrow} src='ArrowRight.svg' />
             </div>
           </div>
 

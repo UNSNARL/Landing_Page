@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div class={styles.container}>
       <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-xl-6">
           <div class={styles.left1}>
             <div className={styles.box1}>
                 <div className={styles.box2}>
@@ -16,7 +16,7 @@ const Intro = () => {
                 </h1>
             </div>
             <div class={styles.detectt}>
-              <div className={styles.heading5}>Introducing</div>
+              <div className={styles.heading5}>Welcome to </div>
             <div className={styles.heading1}>
               <span>DetectBox</span>
               <span>DetectBox</span>
@@ -35,7 +35,7 @@ const Intro = () => {
           </div>
         </div>
 
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-xl-6">
           <img class={styles.bitcoin} src='Illustration.svg' />
         </div>
 
@@ -69,11 +69,11 @@ const Intro = () => {
           </div>
         </div>
 
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-xl-6">
           <img class={styles.img2} src='Illustrations.svg' />
         </div>
 
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-xl-6">
           <div class={styles.left2}>
             <h1 className={styles.heading2}> Why you should choose  </h1>
             <h1 className={styles.heading2}> UNSNARL </h1>

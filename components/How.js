@@ -27,7 +27,7 @@ const How = () => {
       <h1 className={styles.heading2}>Our System and Journey</h1>
 
       <div class="row">
-        <div class="col-12 col-md-6 mb-3">
+        <div class="col-12 col-md-6 mb-3 order-sm-1 order-md-0">
           <div class={styles.box2}>
             <h1 className={styles.heading3}>We build a Trusted </h1>
             <h1 className={styles.heading3}>community of Developers, </h1>
@@ -35,7 +35,7 @@ const How = () => {
           </div>
           <button className={styles.button}>Learn More</button>
         </div>
-        <div class="col-12 col-md-6 mb-3 ">
+        <div class="col-12 col-md-6 mb-3 order-sm-0 order-md-1">
           <div>
             <img className={styles.img} src="Chart.svg" />
           </div>
@@ -48,7 +48,7 @@ const How = () => {
       <div class="row">
         <div class="col-12 col-md-6 mb-3 ">
           <div>
-            <img className={styles.img4} src="image21.png" />
+            <img className={styles.img4} src="Group 113.png" />
           </div>
         </div>
 
