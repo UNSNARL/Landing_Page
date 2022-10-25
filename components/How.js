@@ -29,9 +29,7 @@ const How = () => {
       <div class="row">
         <div class="col-12 col-md-6 mb-3 order-sm-1 order-md-0">
           <div class={styles.box2}>
-            <h1 className={styles.heading3}>We build a Trusted </h1>
-            <h1 className={styles.heading3}>community of Developers, </h1>
-            <h1 className={styles.heading3}>Ethical Hackers and Auditors.</h1>
+            <h1 className={styles.heading3}>We build a Trusted community of Developers, Ethical Hackers and Auditors.</h1>
           </div>
           <button className={styles.button}>Learn More</button>
         </div>
@@ -54,67 +52,36 @@ const How = () => {
 
         <div class="col-12 col-md-6 mb-3">
           <div class={styles.box1}>
-            <h1 className={styles.heading4}>Our team of experts review all</h1>
-            <h1 className={styles.heading4}>the recent hacks/exploits and</h1>
-            <h1 className={styles.heading4}>devise healthy security </h1>
-            <h1 className={styles.heading4}>practices.</h1>
+            <h1 className={styles.heading4}>Our team of experts review all the recent hacks/exploits and devise healthy security practices.</h1>
           </div>
           <button className={styles.button1}>Learn More</button>
         </div>
       </div>
 
       <div class="row mt-5 ">
-        <div class="col-12 col-md-6 mb-3">
+        <div class="col-12 col-md-6 mb-3 order-sm-1 order-md-0 mt-sm-5">
           <div class={styles.box2}>
-            <h1 className={styles.heading3}>We secure web3 Enterprises </h1>
-            <h1 className={styles.heading3}>by building tools using</h1>
-            <h1 className={styles.heading3}>cutting-edge technologies.</h1>
+            <h1 className={styles.heading3}>We secure web3 Enterprises by building tools using cutting-edge technologies.</h1>
           </div>
           <button className={styles.button}>Learn More</button>
         </div>
         <div class="col-12 col-md-6 mb-3">
-          <table id="customers" className="text-white">
-           <tbody className={styles.table}>
-            <tr className='ml-3'>
-              <td className={styles.ele}>
-                <h6>Smart Contract Auditing</h6>
-              </td>
-              <td className={styles.ele1}>Coming<br/> Soon </td>
-              <td className={styles.ele2}>Learn More</td>
-            </tr>
-            <tr className={styles.ele4}>
-              <td className={styles.ele3}>
-                <img className={styles.img2} src="detect-box.png" />
-                <h4 className={styles.ele6}>Detect<br/>Box</h4>
-                <div className={styles.ele5}>100K <br/>Users</div>
-              </td>
-              <td className={styles.ele1}>Bug Bounty</td>
-              <td className={styles.ele2}>Prices and <br/>Pricing</td>
-            </tr>
-            <tr>
-              <td className={styles.ele}>
-                <h6>Automated <br/>Anomaly Detection</h6>
-              </td>
-              <td className={styles.ele1}>Coming <br/>Soon </td>
-              <td className={styles.ele2}>Learn More</td>
-            </tr>
-            </tbody>
-          </table>
+          <div>
+          <img className={styles.table} src='Table.png' />
+          </div>
         </div>
       </div>
 
       <div class="row mt-5">
-        <div class="col-12 col-md-6 mb-3 ">
+        <div class="col-12 col-md-6 mb-3 mb-sm-5">
           <div>
             <img className={styles.img5} src="Group112.png" />
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mb-3">
+        <div class="col-12 col-md-6 mb-3 mt-sm-5">
           <div class={styles.box1}>
-            <h1 className={styles.heading4}>We try to build a secure </h1>
-            <h1 className={styles.heading4}>development pipeline for web3</h1>
-            <h1 className={styles.heading4}>development. </h1>
+            <h1 className={styles.heading4}>We try to build a secure development pipeline for web3 development. </h1>
           </div>
           <button className={styles.button1}>Learn More</button>
         </div>

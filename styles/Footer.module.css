@@ -32,6 +32,69 @@
     justify-content: space-between;
   }
 
-  @media screen and (max-width: 1000px) {
-    
+  .rights1{
+    color: #ffffff
+  }
+
+  .footercont1{
+    display: flex;
+  }
+
+  .footerhead{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+color: #FFFFFF;
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .rights1{
+      text-align: center;
+    }
+
+    .rights2{
+      text-align: center;
+    }
+
+    .footerhead{
+      margin-top: 50px;
+    }
+
+    .footer2{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footercont1{
+      display: flex;
+      margin-left: 25vw;
+      margin-top: 30px;
+    }
+
+    .footer1{
+      text-align: center;
+    }
+
+    .footer11{
+   text-align: center;
+   margin-bottom: 20px;
+    }
+
+    .footerhead{
+    text-align: center;
+    }
+
+    .footer21{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    }
+
+    .footer22{
+    text-align: center;
+    }
   }

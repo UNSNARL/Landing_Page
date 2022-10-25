@@ -32,6 +32,7 @@ color: #FFFFFF;
 
 .img{
     margin-left: 200px;
+    width: 55%;
 }
 
 .img1{
@@ -41,13 +42,14 @@ color: #FFFFFF;
     box-shadow: 0px 4px 20px 15px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     padding: 15px 5px 15px 17px;
-
+    width: 10%;
 }
 
 .img4{
     margin-left: 120px;
     margin-bottom: 70px;
     border: none;
+    width: 70%;
 }
 
 
@@ -89,10 +91,9 @@ color: #FFFFFF;
     padding: 16px 32px;
     gap: 24px;
     color: #FFFFFF;
-    margin-left: 520px;
+    transform: translate(25vh,-4vh) !important;
     border: none;
     margin-top: 25px;
-    transform: translateY(-50px);
 }
 
 .ele{
@@ -147,7 +148,7 @@ color: #FFFFFF;
 }
 
 .table{
-    transform: translateX(6vw);
+    width: 100%;
 }
 
 .box1{
@@ -261,6 +262,7 @@ border: none;
 }
 
 
+
 .error{
     max-width: 14vw;
     color: #fff;
@@ -311,5 +313,54 @@ border: none;
 
 
   @media screen and (max-width: 760px) {
+    /* .table{
+        width: 100%;
+    } */
     
+  }
+
+  @media screen and (min-width: 2000px) {
+   
+    .box1{
+        border: 1px solid #F5FBF2;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
+        backdrop-filter: blur(25px);
+        border-radius: 15px;
+        margin-left: 2vw;
+        margin-right: 7vw;
+        padding: 180px;
+    }
+
+    .heading4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    .img4{
+        margin-left: 250px;
+        margin-bottom: 70px;
+        border: none;
+        width: 65%;
+        transform: translateY(-50px);
+    }
+
+    .box2{
+        border: 1px solid #F5FBF2;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
+        backdrop-filter: blur(25px);
+        border-radius: 12px;
+        margin-left: 7vw;
+        margin-right: 2vw;
+        padding: 180px;
+    }
+
+    .heading3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
   }
