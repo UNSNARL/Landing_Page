@@ -30,7 +30,7 @@ const Detail = () => {
                 <h1 className={styles.head}>DetectBox</h1>
                 <p className={styles.para}>POWERED BY <img class={styles.img2} src='Unsnarl_WEB.svg' />NSNARL</p>
                 <p className={styles.para1}>
-                A Non-Traditional Bug-Bounty Platfrom that is extremely seamless and reliable.             
+                A Non-Traditional Bug-Bounty Platfrom that is extremely seamless and reliable. Have a progressive and secure future.             
                 </p>
 
                 <button class={styles.trial}>
