@@ -27,6 +27,7 @@ justify-content: center;
 align-items: center;
 text-align: center; 
 transform: translateY(-12vh);
+border: none;
 }
 
 .trial1{
@@ -225,7 +226,7 @@ max-width: 400px;
     order: 0;
     flex-grow: 0;
     min-width: 7vw;
-    padding: 10px 12px 10px 12px;
+    padding: 10px 10px 10px 10px;
 }
 
 .heading3{

@@ -7,7 +7,12 @@
     width: 162px;
     transform: translateY(-18px);
   }
-  
+   
+  .visa{
+    width: 25%;
+    margin-right: 15px;
+  }
+ 
   .img{
     margin-left: 23px;
     background: rgba(255, 255, 255, 0.1);
@@ -33,7 +38,8 @@
   }
 
   .rights1{
-    color: #ffffff
+    color: #ffffff;
+    margin-left: 6vw;
   }
 
   .footercont1{
@@ -44,11 +50,16 @@
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
+font-size: 25px;
 line-height: 150%;
 color: #FFFFFF;
-
+margin-right: 4vw !important;
   }
+
+  .youtube{
+    margin-right: 6vw;
+  }
+
 
   @media screen and (max-width: 768px) {
     .rights1{
@@ -57,6 +68,7 @@ color: #FFFFFF;
 
     .rights2{
       text-align: center;
+      margin-right: 5vw;
     }
 
     .footerhead{

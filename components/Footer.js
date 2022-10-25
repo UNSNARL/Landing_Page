@@ -38,9 +38,9 @@ const Footer = () => {
           <div className={styles.footer2}>
             <h3 className={styles.footerhead}>We accept following payment systems</h3>
             <div className={styles.footercont1}>
-              <img class='mr-3' src="Visa.png" />
-              <img class='mr-3' src="Mastercard.png" />
-              <img class='mr-3' src="Bitcoin.png" />
+              <img class={styles.visa} src="Visa.png" />
+              <img class={styles.visa} src="Mastercard.png" />
+              <img class={styles.visa} src="Bitcoin.png" />
             </div>
           </div>
         </div>
@@ -55,12 +55,12 @@ const Footer = () => {
 
         <div class="col-12 col-md-6 mb-5 mt-5">
           <div class="d-flex flex-column ">
-            <div className={styles.rights2}>
+            <div className={`ml-auto ${styles.rights2}`}>
             <img class='mr-3' src='facebook-f 1.svg' />
             <img class='mr-3' src='instagram 1.svg' />
             <img class='mr-3' src='linkedin 1.svg' />
             <img class='mr-3' src='twitter 1.svg' />
-            <img class='mr-3' src='youtube 1.svg' />
+            <img class={styles.youtube} src='youtube 1.svg' />
           </div>
           </div>
         </div>

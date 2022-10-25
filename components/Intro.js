@@ -49,7 +49,7 @@ const Intro = () => {
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 ">
           <div className={styles.stats}>
             <img className={styles.statsicon} src='Icon (1).svg' />
             <div className={styles.statsfig}>
