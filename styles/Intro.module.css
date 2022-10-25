@@ -121,6 +121,7 @@ line-height: 28px;
 letter-spacing: 0.01em;
 color: #E0E0E0;
 transform: translateY(-12vh);
+margin-right: 10px;
 }
 
 .para33{
@@ -328,8 +329,8 @@ margin-left: 2vw;
 
 
 .bitcoin{
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 3vw;
+    margin-right: 7vw;
     width: 80%;
 }
 
@@ -338,7 +339,7 @@ margin-left: 2vw;
     .left2{
         display: flex;
         flex-direction: column;
-        margin-left: 15vw;
+        margin-right: 7vw;
         margin-top: 12vh;
         margin-bottom: 8vh;
     }
@@ -349,11 +350,24 @@ margin-left: 2vw;
 
     .heading1 span {
         color: #fff;
-        font-size: 5.3em;
+        font-size: 3.8em;
         position: absolute;
         margin-right: 15px;
         transform: translateY(-100px);
     }
+
+    .para1{
+        font-size: 30px;
+        }
+        
+        .para11{
+        font-size: 30px;
+        }
+        
+        .para3{
+        font-size: 14px;
+        line-height: 18px;
+        }
 
   }
 
@@ -361,7 +375,7 @@ margin-left: 2vw;
 
     .bitcoin{
         margin-left: 15vw;
-        margin-right: 5vw;
+        margin-right: 7vw;
         width: 69%;
     }
 
