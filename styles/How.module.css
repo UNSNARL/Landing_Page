@@ -253,7 +253,7 @@ input.input1:focus{
 .subscribe{
     font-family: 'Poppins';
     background: #FFFFFF;
-border-radius: 32px;
+    border-radius: 32px;
 display: flex;
 flex-direction: column;
 justify-content: center;
