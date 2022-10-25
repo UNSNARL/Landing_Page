@@ -33,7 +33,7 @@ const How = () => {
           </div>
           <button className={styles.button}>Learn More</button>
         </div>
-        <div class="col-12 col-md-6 mb-3 order-sm-0 order-md-1">
+        <div class="col-12 col-md-6 mb-3">
           <div>
             <img className={styles.img} src="Chart.svg" />
           </div>
@@ -59,7 +59,7 @@ const How = () => {
       </div>
 
       <div class="row mt-5 ">
-        <div class="col-12 col-md-6 mb-3 order-sm-1 order-md-0 mt-sm-5">
+        <div class="col-12 col-md-6 mb-3 mt-sm-5 order-sm-1 order-md-0">
           <div class={styles.box2}>
             <h1 className={styles.heading3}>We secure web3 Enterprises by building tools using cutting-edge technologies.</h1>
           </div>
