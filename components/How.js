@@ -97,7 +97,7 @@ const How = () => {
             </div>
             <div>
               <input id="inputID" 
-              size="30" class={styles.input1} 
+              size="32" class={styles.input1} 
               type='text' 
               value={email}
               onChange={(e)=> setEmail(e.target.value)}
