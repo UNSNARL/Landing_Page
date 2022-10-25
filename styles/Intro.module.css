@@ -8,6 +8,17 @@
     margin-left: 7vw;
 }
 
+.curve1{
+    position: absolute;
+    width: 15vh;
+    height: 120vh;
+    left: 85vh;
+    top: 50vh;
+    
+    background: linear-gradient(180.09deg, rgba(255, 255, 255, 0) 0.49%, rgba(255, 255, 255, 0.04) 39.06%, rgba(255, 255, 255, 0) 99.92%);
+    transform: rotate(-120deg);
+  }
+
 .left2{
     display: flex;
     flex-direction: column;

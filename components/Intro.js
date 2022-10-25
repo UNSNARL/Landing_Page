@@ -5,6 +5,7 @@ const Intro = () => {
   return (
     <div class={styles.container}>
       <div class="row">
+      <img class={styles.curve1} src='curve.svg' />
         <div class="col-12 col-xl-6">
           <div class={styles.left1}>
             <div className={styles.box1}>
@@ -34,6 +35,8 @@ const Intro = () => {
             </button>
           </div>
         </div>
+
+        
 
         <div class="col-12 col-xl-6">
           <img class={styles.bitcoin} src='Illustration.svg' />
