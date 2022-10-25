@@ -235,7 +235,7 @@ color: #FFFFFF;
     border-left-style: none;
     border-top-style: none;
     border-right-style: none;
-    margin-left: 10vw;
+    margin-left: 8vw;
     margin-right: 5vw;
 color: #fff
     
@@ -251,6 +251,7 @@ input.input1:focus{
 
 
 .subscribe{
+    font-family: 'Poppins';
     background: #FFFFFF;
 border-radius: 32px;
 display: flex;
@@ -259,6 +260,7 @@ justify-content: center;
 align-items: center;
 padding: 14px 32px;
 border: none;
+margin-right: 2vw;
 }
 
 
