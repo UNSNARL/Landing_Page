@@ -3,7 +3,7 @@ import styles from "../styles/Detail.module.css";
 
 const Detail = () => {
   return (
-    <div>
+    <div style={{ position:"relative" }}>
       <div className={styles.container}>
         <h1 className={styles.heading}>
           We are Backed by Polygon Technology !
