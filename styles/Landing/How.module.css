@@ -284,7 +284,7 @@ color: #0D0D2B;
     .newsletterbox{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
     .subscribe{
@@ -337,7 +337,8 @@ color: #0D0D2B;
         line-height: 150%;
         color: #FFFFFF;
         mix-blend-mode: normal;
-        margin-left: 40px;
+        
+        margin-left:10px;
     }
     
     .parad1{
@@ -350,7 +351,7 @@ color: #0D0D2B;
         color: #FFFFFF;
         mix-blend-mode: normal;
         transform: translateY(13px);
-        
+        margin-left:10px;
     }
     
     .parad2{
@@ -362,17 +363,20 @@ color: #0D0D2B;
         letter-spacing: 0.01em;
         color: #FFFFFF;
         mix-blend-mode: normal;
+        margin-left:10px;
     }
 
     .input1{
         background-color: transparent;
         border: 1px solid rgba(255, 255, 255, 0.4);
-        padding: 15px;
+        padding: 15px 0;
         border-left-style: none;
         border-top-style: none;
         border-right-style: none;
-        margin-left: 70px;
-        margin-right: 70px;
+        font-size: 16px;
+        /* margin-left: 70px;
+        margin-right: 70px; */
+        /* overflow: hidden; */
         color: #fff;
 
     }
@@ -418,9 +422,9 @@ color: #0D0D2B;
     .inputbut{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
+        /* justify-content: center;
+        align-items: center; */
+        margin-left: 5px;
     }
     
     .button{
