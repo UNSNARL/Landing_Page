@@ -154,7 +154,7 @@ color: #FFFFFF;
 }
 
 .box1{
-    border: 1px solid #F5FBF2;
+    border: 0.1px solid #F5FBF2;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
     backdrop-filter: blur(25px);
     border-radius: 15px;
@@ -164,7 +164,7 @@ color: #FFFFFF;
 }
 
 .box2{
-    border: 1px solid #F5FBF2;
+    border: 0.1px solid #F5FBF2;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
     backdrop-filter: blur(25px);
     border-radius: 15px;
@@ -246,7 +246,6 @@ color: #FFFFFF;
     margin-left: 2vw;
     margin-right: 5vw;
     color: #fff;
-    size: 70;
 }
 
 input.input1::placeholder { 
@@ -330,6 +329,17 @@ color: #0D0D2B;
         width: 100%;
     } */
 
+    .input1{
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        padding: 15px;
+        border-left-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        color: #fff;
+    }
 
     .heading3{
         font-style: normal;
@@ -348,7 +358,7 @@ color: #0D0D2B;
     }
 
     .box1{
-        border: 1px solid #F5FBF2;
+        border: 0.1px solid #F5FBF2;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
         backdrop-filter: blur(25px);
         border-radius: 15px;
@@ -358,7 +368,7 @@ color: #0D0D2B;
     }
     
     .box2{
-        border: 1px solid #F5FBF2;
+        border: 0.1px solid #F5FBF2;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
         backdrop-filter: blur(25px);
         border-radius: 15px;
@@ -435,7 +445,7 @@ color: #0D0D2B;
   @media screen and (min-width: 2000px) {
    
     .box1{
-        border: 1px solid #F5FBF2;
+        border: 0.1px solid #F5FBF2;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
         backdrop-filter: blur(25px);
         border-radius: 15px;
@@ -460,7 +470,7 @@ color: #0D0D2B;
     }
 
     .box2{
-        border: 1px solid #F5FBF2;
+        border: 0.1px solid #F5FBF2;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
         backdrop-filter: blur(25px);
         border-radius: 12px;
