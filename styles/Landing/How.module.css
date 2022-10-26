@@ -188,7 +188,7 @@ color: #FFFFFF;
 .newslettercontainer{
     background: #3671E9;
     border-radius: 16px;
-    background-image: url('../public/Mask Group.svg');
+    background-image: url('../../public/Mask Group.svg');
     padding:5vh;
     margin-left: 200px;
     margin-right: 200px;
@@ -304,7 +304,7 @@ color: #0D0D2B;
     .newslettercontainer{
         background: #3671E9;
         border-radius: 16px;
-        background-image: url('../public/Mask Group.svg');
+        background-image: url('../../public/Mask Group.svg');
         padding: 3vh 2vh 3vh 2vh;
         margin-left: 50px;
         margin-right: 50px;

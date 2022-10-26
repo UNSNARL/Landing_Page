@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/How.module.css";
+import styles from "../../styles/Landing/How.module.css";
 import { useState } from "react";
 import axios from "axios";
 

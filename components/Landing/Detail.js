@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Detail.module.css";
+import styles from "../../styles/Landing/Detail.module.css";
 
 const Detail = () => {
   return (

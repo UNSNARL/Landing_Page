@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Intro from '../components/Intro'
-import How from '../components/How'
-import Detail from '../components/Detail'
+import styles from '../styles/Landing/Home.module.css'
+import Header from '../components/Landing/Header'
+import Footer from '../components/Landing/Footer'
+import Intro from '../components/Landing/Intro'
+import How from '../components/Landing/How'
+import Detail from '../components/Landing/Detail'
 
 export default function Home() {
   return (
