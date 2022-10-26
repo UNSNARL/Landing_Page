@@ -329,6 +329,15 @@ color: #0D0D2B;
         width: 100%;
     } */
 
+    .heading1{
+        font-size: 30px;
+    }
+
+    .heading2{
+        font-size: 30px;
+    }
+
+
     .headingd{
         font-family: 'Poppins';
         font-style: normal;
@@ -373,7 +382,7 @@ color: #0D0D2B;
         border-left-style: none;
         border-top-style: none;
         border-right-style: none;
-        font-size: 16px;
+        font-size: 14px;
         /* margin-left: 70px;
         margin-right: 70px; */
         /* overflow: hidden; */
@@ -425,6 +434,7 @@ color: #0D0D2B;
         /* justify-content: center;
         align-items: center; */
         margin-left: 5px;
+        overflow-x: hidden;
     }
     
     .button{
