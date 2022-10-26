@@ -6,6 +6,7 @@ const Intro = () => {
     <div class={styles.container}>
       <div class="row">
       <img class={styles.curve1} src='curve.svg' />
+      <img class={styles.curve2} src='curve1.svg' />
         <div class="col-12 col-xl-6">
           <div class={styles.left1}>
             <div className={styles.box1}>
@@ -78,12 +79,8 @@ const Intro = () => {
 
         <div class="col-12 col-xl-6">
           <div class={styles.left2}>
-            <h1 className={styles.heading2}> Why you should choose  </h1>
-            <h1 className={styles.heading2}> UNSNARL </h1>
-            <p className={styles.para33}>Experience the next generation Ecosystem Based </p>
-            <p className={styles.para331}>Auditing(EBA) platform leveraged by a world-wide </p>
-            <p className={styles.para332}>trusted community. No project deployment delays, no </p>
-            <p className={styles.para333}>extra costs, optimum security. </p>
+            <h1 className={styles.heading2}> Why you should choose UNSNARL </h1>
+            <p className={styles.para33}>Experience the next generation Ecosystem Based Auditing(EBA) platform leveraged by a world-wide trusted community. No project deployment delays, no extra costs, optimum security.</p>
             <button class={styles.trial1}>
                     <p className={styles.trialtext}>Learn More</p>
             </button>

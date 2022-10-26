@@ -283,8 +283,21 @@ transform: translateY(-50px);
   }
 
  
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 760px) {
+    .img{
+ 
+        transform: translateY(10vh);
+    }
 
+    .header1{
+        padding-top: 150px;
+        text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #0D0D2B;
+    
+    }
     
     }
     

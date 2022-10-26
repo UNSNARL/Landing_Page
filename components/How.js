@@ -27,7 +27,7 @@ const How = () => {
 
       <div class="col justify-content-center align-items-center">
         <div class="row align-items-center">
-          <div class="col-12 col-md-6 mb-3 order-sm-1 order-md-0">
+          <div class="col-12 col-md-6 mb-3 order-1 order-md-0">
             <div class={styles.box2}>
               <h1 className={styles.heading3}>
                 We build a Trusted community of Developers, Ethical Hackers and
@@ -47,13 +47,13 @@ const How = () => {
         </div>
 
         <div class="row align-items-center">
-          <div class="col-12 col-md-6 mb-3 ">
+          <div class="col-12 col-md-6 mb-3">
             <div>
               <img className={styles.img4} src="Group 113.png" />
             </div>
           </div>
 
-          <div class="col-12 col-md-6 mb-3">
+          <div class="col-12 col-md-6 mb-3 order-1">
             <div class={styles.box1}>
               <h1 className={styles.heading4}>
                 Our team of experts review all the recent hacks/exploits and
@@ -65,7 +65,7 @@ const How = () => {
         </div>
 
         <div class="row mt-5  align-items-center">
-          <div class="col-12 col-md-6 mb-3 mt-sm-5 order-sm-1 order-md-0">
+          <div class="col-12 col-md-6 mb-3 mt-sm-5 order-1 order-md-0">
             <div class={styles.box2}>
               <h1 className={styles.heading3}>
                 We secure web3 Enterprises by building tools using cutting-edge
@@ -92,7 +92,7 @@ const How = () => {
             <div class={styles.box1}>
               <h1 className={styles.heading4}>
                 We try to build a secure development pipeline for web3
-                development.{" "}
+                development.
               </h1>
             </div>
             <button className={styles.button1}>Learn More</button>
@@ -106,15 +106,14 @@ const How = () => {
             <div>
               <h1 class={styles.headingd}>Start Detecting Now</h1>
               <p class={styles.parad1}>
-                Join now with UNSNARL to get the latest{" "}
+                Join now with UNSNARL to get the latest
               </p>
               <p class={styles.parad2}>news and an early access to DetectBox</p>
             </div>
-            <div style={{ display: "flex" }}>
+            <div class={styles.inputbut}>
               <div>
                 <input
                   id="inputID"
-                  size="32"
                   class={styles.input1}
                   type="text"
                   value={email}
