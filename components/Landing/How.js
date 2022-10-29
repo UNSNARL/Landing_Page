@@ -30,7 +30,7 @@ const How = () => {
           <div class="col-12 col-md-6 mb-3 order-1 order-md-0">
             <div class={styles.box2}>
               <h1 className={styles.heading3}>
-                We build a Trusted community of Developers, Ethical Hackers and
+                We have built a Trusted community of Developers, Ethical Hackers and
                 Auditors.
               </h1>
             </div>
@@ -91,7 +91,7 @@ const How = () => {
           <div class="col-12 col-md-6 mb-3 mt-sm-5">
             <div class={styles.box1}>
               <h1 className={styles.heading4}>
-                We try to build a secure development pipeline for web3
+                We build a secure development pipeline for web3
                 development.
               </h1>
             </div>

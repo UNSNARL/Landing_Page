@@ -1,0 +1,69 @@
+.container{
+    background-color: #000;
+}
+
+.text{
+    text-align: center;
+}
+
+.heading1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.para1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px; 
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    padding: 20px 30vw 20px 30vw;
+}
+
+.button{
+    background: linear-gradient(92.51deg, #FF9898 0.48%, #8054FF 100%);
+border-radius: 5px;
+padding: 12px 28px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+margin-bottom: 25vw;
+}
+
+.button1{
+    font-weight: 400;
+}
+
+.subtract{
+    width: 100%;
+}
+
+.dashboard{
+    width: 60%;
+}
+
+.dashboarddiv{
+    text-align: center;
+    transform: translateY(-52vw);
+}

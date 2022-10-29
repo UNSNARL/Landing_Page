@@ -1,0 +1,247 @@
+.container{
+    background-color: #000;
+    transform: translateY(-35vw);
+}
+
+.feature{
+    margin-left: 10vw;
+}
+
+.header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9E9E9E;
+    padding-right: 50vw;
+}
+
+.box1{
+    background: #18181C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-bottom: 5vw; 
+    margin-top: 5vw;
+    padding: 1vw;
+}
+
+.box2{
+    background: #18181C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw; 
+    margin-top: 5vw;
+    padding: 1vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.box3{
+    background: #18181C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    margin-bottom: 5vw; 
+    margin-top: 5vw;
+    padding: 1vw;
+}
+
+.box4{
+    background: #18181C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+    padding: 1vw;
+}
+
+.box5{
+    background: #18181C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+
+.box6{
+    background: #18181C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+    padding: 1vw;
+}
+
+.img{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.imgbox{
+    text-align: center;
+}
+
+.header1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.para1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #9E9E9E;
+}
+
+.collab{
+    width: 80%;
+    margin-left: 10vw;
+}
+
+.featureheader{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.featurebox{
+    padding: 5vw 15vw 5vw 5vw;
+}
+
+.featurepara{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px; 
+    color: #9E9E9E;
+}
+
+.featurebut{
+    background: linear-gradient(92.51deg, #FF9898 0.48%, #8054FF 100%);
+    border-radius: 5px;
+    padding: 12px 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.featureheader1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.featurebox1{
+    background: linear-gradient(135.66deg, #FF9898 14.73%, #8054FF 86.33%);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+}
+
+.featurepara1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.featurebut1{
+    background: #000000;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;   
+    color: #FFFFFF;
+    padding: 12px 28px;
+}
+
+
+.featureheader2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.featurebox2{
+    background: #18181C;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 10vw;
+}
+
+.featurepara2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+}
+
+.featurebut2{
+    background: linear-gradient(92.51deg, #FF9898 0.48%, #8054FF 100%);
+    border-radius: 5px;
+    padding: 12px 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #FFFFFF;
+    
+}
