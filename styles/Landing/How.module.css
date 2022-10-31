@@ -361,7 +361,11 @@ color: #0D0D2B;
     } */
 
     .iitheading{
-        font-size: 30px;
+        font-size: 35px;
+    }
+
+    .iitdiv{
+        padding: 10vw 10vw;
     }
 
     .heading1{
