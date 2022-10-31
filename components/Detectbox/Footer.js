@@ -3,7 +3,12 @@ import styles from "../../styles/Detectbox/Footer.module.css";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+    <div className={styles.container}>
+   
+      </div>
+    </div>
+
   )
 }
 

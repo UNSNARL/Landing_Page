@@ -3,6 +3,10 @@
     transform: translateY(-35vw);
 }
 
+.container1{
+    background-color: #000;
+}
+
 .feature{
     margin-left: 10vw;
 }
@@ -176,7 +180,9 @@ color: #FFFFFF;
     flex-direction: column;
     margin-bottom: 5vw;
     margin-top: 5vw;
-    margin-left: 10vw;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    padding: 3vw 4vw;
 }
 
 .featurepara1{
@@ -186,6 +192,7 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 28px;
     color: #FFFFFF;
+    padding: 2vw 0vw 3vw 0vw;
 }
 
 .featurebut1{
@@ -217,7 +224,10 @@ color: #FFFFFF;
     flex-direction: column;
     margin-bottom: 5vw;
     margin-top: 5vw;
-    margin-right: 10vw;
+    margin-right: 15vw;
+    padding: 3vw 4vw;
+    margin-left: 5vw;
+
 }
 
 .featurepara2{
@@ -227,7 +237,7 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 28px;
     color: #FFFFFF;
-    
+    padding: 2vw 0vw 3vw 0vw;
 }
 
 .featurebut2{
@@ -239,9 +249,132 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    /* identical to box height, or 143% */
-    
-    
     color: #FFFFFF;
-    
+    border: none;
+}
+
+.bountypara1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+transform: translateY(-2vw);
+}
+
+.horizontalline{
+    border: 1px solid #404047;
+    width: 80%;
+    transform: translateY(-2vw);
+}
+
+.horizontalline1{
+    border: 1px solid #404047;
+    width: 80%; 
+}
+
+.bounty1{
+    display: flex;
+    flex-direction: column;
+    background: #18181C;
+border-radius: 20px;
+margin-left: 10vw;
+margin-top: 3vw;
+margin-bottom: 3vw;
+}
+
+.bounty2{
+    display: flex;
+    flex-direction: column;
+    background: #18181C;
+border-radius: 20px;
+margin-top: 3vw;
+margin-left: 5vw;
+margin-right: 5vw;
+margin-bottom: 3vw;
+}
+
+.bounty3{
+    display: flex;
+    flex-direction: column;
+    background: #18181C;
+border-radius: 20px;
+margin-right: 10vw;
+margin-top: 3vw;
+margin-bottom: 3vw;
+}
+
+.bountyicon1{
+    transform: translateY(-2vw);
+}
+
+.bountydiv1{
+    display: flex;
+    align-items: center;
+}
+
+.bountypara11{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.bountymainheader{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #FFFFFF;
+margin-left: 10vw;
+}
+
+.bountybutton{
+    background: linear-gradient(92.51deg, #FF9898 0.48%, #8054FF 100%);
+    border-radius: 5px;
+    padding: 12px 28px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.bountyfooterheader{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 64px;
+color: #FFFFFF;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.bountyfooterpara{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #9E9E9E;
+}
+
+.bountyfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bountyicon11{
+    padding: 10px;   
+    margin-left: 20px;
 }

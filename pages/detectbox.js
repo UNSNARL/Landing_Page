@@ -3,11 +3,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Header from '../components/Detectbox/Header'
-import Contact from '../components/Detectbox/Contact'
 import Feature from '../components/Detectbox/Feature'
 import Footer from '../components/Detectbox/Footer'
 import Intro from '../components/Detectbox/Intro'
 import Performer from '../components/Detectbox/Performer'
+
+import styles from "../styles/Detectbox/Feature.module.css";
 
 const detectbox = () => {
   return (
@@ -26,12 +27,11 @@ const detectbox = () => {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer />
       </Head>
 
-      <main>
+      <main class={styles.container1}>
         <Header />
         <Intro />
         <Feature />
         <Performer />
-        <Contact />
         <Footer /> 
       </main>
     </div>
