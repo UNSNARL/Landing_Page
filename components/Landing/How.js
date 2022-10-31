@@ -100,6 +100,22 @@ const How = () => {
         </div>
       </div>
 
+      <div class={styles.iitdiv1}>
+        <div class={styles.iitdiv}>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class='d-flex'>
+                <img src='IITBhu.gif' class={styles.iit} />
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex">
+              <h1 class={styles.iitheading}>We are being supported by <span class={styles.iitpara}>E-Cell</span> IIT BHU</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className={styles.newsletter}>
         <div className={styles.newslettercontainer}>
           <div className={styles.newsletterbox}>

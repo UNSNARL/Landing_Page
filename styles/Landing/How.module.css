@@ -16,6 +16,37 @@ text-align: center;
 color: #FFFFFF;
 }
 
+.iitheading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 150%;
+align-self: center;
+color: #FFFFFF;
+}
+
+.iitpara{
+    color: #FC792F;
+}
+
+.iit{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.iitdiv{
+    background-image: url('../../public/Group 288.png');
+    background-size: cover;
+    padding: 8vw 8vw;
+}
+
+.iitdiv1{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 .heading2{
     font-style: normal;
     font-weight: 700;
@@ -328,6 +359,10 @@ color: #0D0D2B;
     /* .table{
         width: 100%;
     } */
+
+    .iitheading{
+        font-size: 30px;
+    }
 
     .heading1{
         font-size: 30px;
