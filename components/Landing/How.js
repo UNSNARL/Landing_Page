@@ -110,7 +110,7 @@ const How = () => {
             </div>
 
             <div class="col-12 col-md-6 d-flex">
-              <h1 class={styles.iitheading}>We are being supported by <span class={styles.iitpara}>E-Cell</span> IIT BHU</h1>
+              <h1 class={styles.iitheading}>We are being supported by <span class={styles.iitpara}><br/>E-Cell</span> IIT BHU</h1>
             </div>
           </div>
         </div>
