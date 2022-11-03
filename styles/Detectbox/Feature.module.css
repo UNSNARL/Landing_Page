@@ -1,6 +1,7 @@
 .container{
     background-color: #000;
-    transform: translateY(-35vw);
+    /* transform: translateY(-35vw); */
+    margin-top: 15vw;
 }
 
 .container1{

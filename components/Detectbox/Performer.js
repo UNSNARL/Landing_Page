@@ -33,7 +33,7 @@ const Performer = () => {
 
           <div class="col-12 col-md-7">
             <div>
-
+              <img src='Group 265.png' class={styles.imggrp} />
             </div>
           </div>
 
@@ -54,9 +54,22 @@ const Performer = () => {
           </div>
         </div>
 
-        <div>
-
+      <div class={styles.performerdiv2}>
+        <div class='row'>
+          <div class="col-12 col-md-6 order-md-0 order-1">
+            <div class={styles.performerdiv3}>
+              <h1 class={styles.platformheading1}>Love our Our Tool?</h1>
+              <h1 class={styles.platformheading2}>Guess What ? We have a $0 Platform Fee</h1>
+              <div>
+                <button class={styles.platformbutton}>Login to Detectbox</button>
+              </div>
+            </div>
+          </div>
+            <div class="col-12 col-md-6 order-md-1 order-0">
+              <img src='Frame.png' class={styles.platformimg} />
+            </div>
         </div>
+      </div>
 
         <div class="row">
           <div class="col-12 col-md-6">
@@ -77,7 +90,7 @@ const Performer = () => {
                 <br />
 
                 <textarea id="query" rows="8" cols="50" name="yourquery" class={styles.query} placeholder="Your Query">
-                  Your Query
+      
                 </textarea>
                 <br /> 
 

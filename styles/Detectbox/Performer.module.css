@@ -1,6 +1,7 @@
 .container{
     background-color: #000;
-    transform: translateY(-35vw);
+    /* transform: translateY(-35vw); */
+    margin-top: 5vw;
 }
 
 .performer{
@@ -180,7 +181,7 @@ padding: 5vw 25vw ;
     display: flex;
     flex-direction: row;
     margin-left: 10vw;
-    padding-bottom: 20vw;
+    padding-bottom: 25vw;
 }
 
 .contact{
@@ -190,13 +191,13 @@ padding: 5vw 25vw ;
 
 .contactdiv{
     margin-left: 10vw;
-    margin-top: 20vw;
+    margin-top: 5vw;
 }
 
 .performer1{
     display: flex;
     flex-direction: column;
-    margin-top: 20vw;
+    margin-top: 5vw;
 }
 
 
@@ -216,4 +217,59 @@ color: #FFFFFF;
     margin-top: 15vw;
     padding-bottom: 10vw;
     height: 538px;
+}
+
+.platformimg{
+    width: 100%;
+}
+
+.platformbutton{
+    background: #000000;
+border-radius: 5px;
+padding: 12px 28px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+margin-top: 2vw;
+}
+
+.platformheading2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+color: #FFFFFF;
+}
+
+.platformheading1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.performerdiv3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.performerdiv2{
+    background: linear-gradient(135.66deg, #FF9898 14.73%, #8054FF 86.33%);
+border-radius: 40px;
+width: 90%;
+margin-left: 5vw;
+/* transform: translateY(-15vw); */
+margin-top: -15vw;
+}
+
+.imggrp{
+    width: 80%;
 }

@@ -1,5 +1,159 @@
 .container{
-    background-color: #000;
-    transform: translateY(-45vw);
+  background: #18181C;
+    /* transform: translateY(-45vw); */
+    margin-top: -10vw;
+    padding-top: 2vw;
 }
 
+.headingtext {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    width: 162px;
+    transform: translateY(-18px);
+    margin-left: -2vw;
+  }
+
+  .footer11{
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .footer211{
+    margin-top: 50px;
+  }
+
+  .img2{
+    width: 10%;
+    
+  }
+
+  .para{
+    color: #FFFFFF;
+    padding-left: 13vw;
+    margin-top: -4vw;
+  }
+
+  .footerpara{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+padding-left: 13vw;
+padding-right: 4vw;
+color: #9E9E9E;
+  }
+   
+  .visa{
+    width: 25%;
+    margin-right: 15px;
+  }
+ 
+  .img{
+    width: 30%;
+    margin-left: -2vw;
+  }
+
+  .heading{
+    display: flex;
+    padding-left: 11vw;
+    align-items: center;
+  }
+
+  .foot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rights1{
+    color: #ffffff;
+    margin-left: 6vw;
+  }
+
+  .footercont1{
+    display: flex;
+  }
+
+  .footerhead{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 150%;
+color: #FFFFFF;
+margin-right: 4vw !important;
+  }
+
+  .youtube{
+    margin-right: 6vw;
+  }
+
+  .footer22{
+    margin-top: 10px;
+  }
+
+  .footer1{
+    margin-top: 10px;
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .rights1{
+      text-align: center;
+    }
+
+    .rights2{
+      text-align: center;
+      margin-right: 5vw;
+    }
+
+    .footerhead{
+      margin-top: 50px;
+    }
+
+    .youtube{
+      margin-right: 20vw;
+    }
+  
+
+    .footer2{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footercont1{
+      display: flex;
+      margin-left: 15vw;
+      margin-top: 30px;
+    }
+
+    .footer1{
+      text-align: center;
+    }
+
+    .footer11{
+   text-align: center;
+   margin-bottom: 20px;
+    }
+
+    .footerhead{
+    text-align: center;
+    }
+
+
+
+    .footer21{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    }
+
+    .footer22{
+    text-align: center;
+    }
+  }
